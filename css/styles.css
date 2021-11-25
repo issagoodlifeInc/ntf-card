@@ -1,0 +1,142 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary Colors */
+  --paleble: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --mainbgdarkblue: hsl(217, 54%, 11%);
+  /* Neutral Colors */
+  --cardbgdarkblue: hsl(216, 50%, 16%);
+  --linedarkblue: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  background: var(--mainbgdarkblue);
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: var(--paleble);
+}
+
+.card {
+  background-color: var(--cardbgdarkblue);
+  margin: 4.5rem auto;
+  width: 90%;
+  max-width: 383.4px;
+  padding: 1.2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0px 30px 0 15px #0c1729, 0px 24px 0 45px #0c192c;
+}
+
+.card-img {
+  /* background-image: url("../images/image-equilibrium.jpg"); */
+  /* background-repeat: no-repeat; */
+  max-width: 350px;
+  height: auto;
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card-img .view {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+h2, .card-img, .card-footer p span {
+  cursor: pointer;
+}
+
+h2:hover, .card-footer p span:hover {
+  color: var(--cyan);
+}
+
+.card-img img:hover {
+  z-index: -2;
+}
+
+.card-img .view:hover {
+  background-color: var(--cyan);
+  background-image: url("../images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.75;
+}
+
+.card-eth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-eth img {
+  padding-right: .4rem;
+}
+
+.main_p {
+  line-height: 1.8;
+}
+
+.card-eth p:first-of-type {
+  color: var(--cyan);
+}
+
+hr {
+  width: 95%;
+  background-color: var(--linedarkblue);
+  height: 1px;
+  border: none;
+}
+
+.card-footer {
+  display: flex;
+}
+
+.card-footer .footer-img {
+  max-width: 15%;
+  padding: .4rem 0;
+}
+
+.footer-img img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+.card-footer p {
+  padding-left: 1.2rem;
+}
+
+.card-footer p span {
+  color: var(--white);
+}
+
+@media (min-width: 438px) {
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
