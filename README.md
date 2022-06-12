@@ -92,4 +92,5 @@ Still didn't get the required blend even after trying to play around with the z-
 
 ## Acknowledgments
 
+[Rafal @grizhlieCodes](https://www.youtube.com/c/GrizhlieCodes) - Referred me to [his codepen](https://codepen.io/grizhlie/pen/JjyQmKR?editors=1100) to help tackle the image overlay. Thanks Rafal
 @KibiTheGreat - Moral support 😅💯
