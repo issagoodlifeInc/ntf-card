@@ -41,7 +41,7 @@ Looks like this on the hover state of the image on a laptop feel😎
 ### Links
 
 - Solution URL: [My Solution](https://github.com/issagoodlifeInc/ntf-card.git)
-- Live Site URL: [Github Site](https://github.com/issagoodlifeinc.github.io/ntf-card/)
+- Live Site URL: [Github Site](https://issagoodlifeinc.github.io/ntf-card/)
 
 ## My process
 
